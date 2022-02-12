@@ -14,10 +14,11 @@ namespace ExercicioAula23CSharp {
 
             Console.WriteLine("Entre com o preço de um produto:");
             double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-
+            
             Console.WriteLine("Entre seu último nome, idade e altura (mesma linha):");
             string[] vet = Console.ReadLine().Split(' ');
 
+            // Atribuindo uma única linha à várias variáveis
             int idade = int.Parse(vet[1]);
             double altura = double.Parse(vet[2], CultureInfo.InvariantCulture);
             
