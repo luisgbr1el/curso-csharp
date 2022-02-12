@@ -4,7 +4,8 @@ using System.Globalization;
 namespace ExercicioAula23CSharp {
     class Program {
         static void Main(string[] args) {
-
+            
+            // Lendo informações para atribuir valores as variáveis
             Console.WriteLine("Entre com o seu nome completo:");
             string nome = Console.ReadLine();
 
@@ -19,7 +20,8 @@ namespace ExercicioAula23CSharp {
 
             int idade = int.Parse(vet[1]);
             double altura = double.Parse(vet[2], CultureInfo.InvariantCulture);
-
+            
+            // Mostrando no console todas as informações
             Console.WriteLine(nome);
             Console.WriteLine(quartos);
             Console.WriteLine(preco.ToString("F2", CultureInfo.InvariantCulture));
