@@ -9,7 +9,8 @@ namespace ExercicioAula29CSharp {
 
             int code = int.Parse(vet[0]);
             double quantity = double.Parse(vet[1]);
-
+            
+            // Fazendo sistema para detecção de itens por código de produto e mostrando os preços com if-else
             if (code == 1) {
                 Console.WriteLine("R$ " + (quantity * 4.00).ToString("F2", CultureInfo.InvariantCulture));
             } else if (code == 2) {
